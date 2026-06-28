@@ -1,0 +1,6 @@
+{
+  "name": "Tilak Homes",
+  "description": "Premium Residential Apartments in Berhampur by Tilak Homes, established since 2008. Discover luxury living, quality construction, and prime residential locations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
