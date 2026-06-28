@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Tilak Homes
 
-# Run and deploy your AI Studio app
+A modern real-estate landing website for Tilak Homes, designed to showcase premium residential projects in Berhampur, Odisha. The experience includes animated sections, project highlights, contact information, FAQs, and an interactive AI-style assistant bot that helps visitors explore the site quickly.
 
-This contains everything you need to run your app locally.
+## What this website includes
+- Elegant hero section with animated project storytelling
+- Project showcase pages for ongoing and completed developments
+- About, Contact, FAQ, and gallery sections
+- Floating quick actions for WhatsApp, call, and site visit booking
+- An AI-style assistant bot with options for About, Projects, Contact, and Site Visit
 
-View your app in AI Studio: https://ai.studio/apps/d0ae9d79-4797-4bda-be3d-0fb09ddf5537
+## Tech stack used
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Motion (animation library)
+- Lucide React icons
+- Express and dotenv for lightweight backend support
 
-## Run Locally
+## Run locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- Node.js installed on your machine
 
-
+### Steps
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Open the local URL shown in the terminal (usually http://localhost:3000)
+
+## Build for production
+```bash
+npm run build
+```
+
+## Project goal
+This project presents Tilak Homes as a premium, trustworthy real-estate brand with a polished digital experience and user-friendly navigation.
