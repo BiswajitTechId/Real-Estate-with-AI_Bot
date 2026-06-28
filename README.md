@@ -41,3 +41,6 @@ npm run build
 
 ## Project goal
 This project presents Tilak Homes as a premium, trustworthy real-estate brand with a polished digital experience and user-friendly navigation.
+
+## Usage notice
+This website, its design, content, and branding are intended for the owner’s use. Please do not copy, reuse, or distribute this project or its content without explicit permission from the owner.
