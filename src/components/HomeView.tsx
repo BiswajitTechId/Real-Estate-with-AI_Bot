@@ -149,7 +149,7 @@ export default function HomeView({ onNavigate, onRequestCallback }: HomeViewProp
   };
 
   return (
-    <div id="home-view-container" className="bg-slate-950 text-slate-100 overflow-x-hidden">
+    <div id="home-view-container" className="relative bg-slate-950 text-slate-100 overflow-x-hidden">
       
       {/* Decorative Background Glowing Elements */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-blue-600/10 blur-[140px] pointer-events-none z-0 animate-glow-pulse" />

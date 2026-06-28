@@ -121,7 +121,7 @@ export default function AssistantBot({ onNavigate, onShowNotification }: Assista
   };
 
   return (
-    <div className="fixed bottom-6 right-3 z-[60] flex flex-col items-end md:right-6" id="assistant-bot-shell">
+    <div className="fixed bottom-6 right-3 z-[60] flex flex-col items-end sm:right-6" id="assistant-bot-shell">
       <AnimatePresence mode="wait">
         {isOpen ? (
           <motion.div
@@ -130,8 +130,8 @@ export default function AssistantBot({ onNavigate, onShowNotification }: Assista
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 10, scale: 0.96 }}
             transition={{ duration: 0.24, ease: 'easeOut' }}
-            className="absolute bottom-full right-0 mb-3 rounded-[24px] border border-slate-800/80 bg-slate-950/95 p-4 shadow-2xl shadow-slate-950/40 backdrop-blur"
-            style={{ width: 'min(100vw - 1.5rem, 320px)' }}
+            className="absolute bottom-full right-0 mb-3 rounded-[24px] border border-slate-800/80 bg-slate-950/95 p-4 shadow-2xl shadow-slate-950/40 backdrop-blur overflow-hidden"
+            style={{ width: 'min(100vw - 1.5rem, 320px)', boxSizing: 'border-box' }}
           >
             <div className="mb-3 flex items-start justify-between">
               <div className="flex items-center gap-2">

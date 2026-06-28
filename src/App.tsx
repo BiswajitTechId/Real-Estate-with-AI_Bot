@@ -90,7 +90,7 @@ export default function App() {
       <Header activeTab={activeTab} setActiveTab={setActiveTab} />
 
       {/* Main content viewport */}
-      <main className="flex-grow overflow-hidden bg-slate-950">
+      <main className="flex-grow overflow-x-hidden bg-slate-950">
         <AnimatePresence mode="wait">
           {activeTab === 'home' && (
             <motion.div
